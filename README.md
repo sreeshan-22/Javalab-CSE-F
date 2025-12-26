@@ -32,6 +32,6 @@ public class DisplayDefaultValues {
 
 
 
-![output](exp 1 a output.png)
+!(output)[exp 1 a output.png]
 
 
