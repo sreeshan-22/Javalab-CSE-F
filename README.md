@@ -32,6 +32,6 @@ public class DisplayDefaultValues {
 
 
 
-![output](exp 1b output.png)
+![output](Screenshot 2025-12-26 153504.png)
 
 
