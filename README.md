@@ -152,4 +152,5 @@ System.out.println("Result of adding three integers:"+obj.add(40,50,60));
 
 
 ```
+![output](2b.jpeg)
 
