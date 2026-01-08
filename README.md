@@ -122,7 +122,7 @@ System.out.println("Perimeter of Square:"+perimeter);
 }
 ```
 
-![ouput](experiments/1b.png)
+![ouput](2a.jpeg)
 
 
 
