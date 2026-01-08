@@ -154,3 +154,48 @@ System.out.println("Result of adding three integers:"+obj.add(40,50,60));
 ```
 ![output](2b.jpeg)
 
+
+
+
+
+
+
+
+
+
+```java
+
+
+class Student{
+String name;
+int age;
+int marks;
+Student(String n,int a,int b){
+name=n;
+age=a;
+marks=m;
+}
+void display(){
+System.out.println("Name:"+name);
+System.out.println(Age:"+age);
+System.out.println("Marks:"+marks);
+}
+public static void main(String args[]){
+Student s1=new Student("Alice",20,85);
+s1.display();
+}
+}
+
+
+
+
+```java
+
+
+
+
+
+###output
+
+
+![output](
