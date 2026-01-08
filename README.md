@@ -159,7 +159,7 @@ System.out.println("Result of adding three integers:"+obj.add(40,50,60));
 
 
 
-
+## 2C
 
 
 
@@ -198,4 +198,4 @@ s1.display();
 ###output
 
 
-![output](
+![output](2c.jpeg)
