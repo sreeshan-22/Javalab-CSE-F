@@ -97,6 +97,34 @@ class QuadraticRoots {
 ![ouput](experiments/1b.png)
 
 
+## task 1b
+
+##title:qudratic eqn
+```java 
+class square{
+int length;
+int areaofsquare(){
+return length*length;
+}
+int perimeterofsqaure(){
+retrun 4*length;
+}
+}
+class main{
+public static void main(String args[]){
+square sq=new square();
+sq.length=5;
+int area=sq.areaofsquare();
+int perimeter=perimeterofsquare();
+System.out.println("Area of Square:"+area);
+System.out.println("Perimeter of Square:"+perimeter);
+}
+}
+```
+
+![ouput](experiments/1b.png)
+
+
 
 
 
