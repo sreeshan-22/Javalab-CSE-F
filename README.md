@@ -97,9 +97,9 @@ class QuadraticRoots {
 ![ouput](experiments/1b.png)
 
 
-## task 1b
+## task 2a
 
-##title:qudratic eqn
+##title:square
 ```java 
 class square{
 int length;
@@ -124,12 +124,32 @@ System.out.println("Perimeter of Square:"+perimeter);
 
 ![ouput](2a.jpeg)
 
+## 2B
+```java
+class Add{
+int add(int a,int b){
+return a+b;
+}
+double add(double a,double b){
+return a+b;
+}
+int add(int a,int b,int c){
+return a+b+c;
+}
+}
+class main{
+public static void main(String args[]){
+Add obj=new Add();
+System.out.println("Result of adding two integers:"+obj.add(10,20));
+System.out.println("Result of adding two double values:"+obj.add(5.5,6.5));
+System.out.println("Result of adding three integers:"+obj.add(40,50,60));
+}
+}
 
 
 
 
 
 
-
-
+```
 
