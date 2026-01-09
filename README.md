@@ -260,7 +260,9 @@ class Fibonacci {
 
 ```
 
-##ouptut
+##output
+
+![output](experiments/addtionalexp1.png)
 
 
 
