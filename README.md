@@ -258,5 +258,5 @@ class Student {
 
 ##output
 
-![output](3a output.png)
+![output](3aoutput.png)
 
