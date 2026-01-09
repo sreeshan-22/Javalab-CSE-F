@@ -329,7 +329,7 @@ class Student {
 
 
 
-##3c
+## 3b
 
 ```java
 
@@ -411,7 +411,7 @@ class BinarySearchDemo {
 
 
 
-##3c
+## 3c
 
 ```java
 
