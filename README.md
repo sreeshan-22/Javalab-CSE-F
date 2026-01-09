@@ -198,7 +198,7 @@ s1.display();
 
 
 
-##additioanal exp1
+## additioanal exp1
 
 ```java
 
