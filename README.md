@@ -385,4 +385,4 @@ class BubbleSort {
 
 ##output
 
-![output](3coutpu.png)
+![output](3coutput.png)
