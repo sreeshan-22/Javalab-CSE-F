@@ -496,3 +496,89 @@ class InsertSubstring {
 
 # output
 ![output](experiments/add2.png)
+
+
+
+
+# palindrome 
+
+
+```java
+
+import java.util.Scanner;
+
+class PalindromeCheck {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a string: ");
+        String str = sc.nextLine();
+
+        int start = 0;
+        int end = str.length() - 1;
+        boolean isPalindrome = true;
+
+        while (start < end) {
+            if (str.charAt(start) != str.charAt(end)) {
+                isPalindrome = false;
+                break;
+            }
+            start++;
+            end--;
+        }
+
+        if (isPalindrome) {
+            System.out.println("String is a palindrome");
+        } else {
+            System.out.println("String is not a palindrome");
+        }
+
+        sc.close();
+    }
+}
+
+
+```
+
+
+# output
+![output](experiments/add3.png)
+
+
+
+
+# perfect number
+
+```java
+
+import java.util.Scanner;
+ class PerfectNumber {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a positive integer: ");
+        int num = sc.nextInt();
+
+        int sum = 0;
+
+        for (int i = 1; i <= num / 2; i++) {
+            if (num % i == 0) {
+                sum += i;
+            }
+        }
+
+        if (sum == num) {
+            System.out.println(num + " is a perfect number");
+        } else {
+            System.out.println(num + " is not a perfect number");
+        }
+
+        sc.close();
+    }
+}
+
+
+```
+
+# output
+![ooutput](experiments/add4.png)
