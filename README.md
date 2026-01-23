@@ -452,3 +452,47 @@ class BubbleSort {
 ##output
 
 ![output](3coutput.png)
+
+
+# additional 
+# string
+
+
+```java
+
+
+
+
+
+import java.util.Scanner;
+
+class InsertSubstring {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter main string: ");
+        String mainString = sc.nextLine();
+
+        System.out.print("Enter substring to insert: ");
+        String subString = sc.nextLine();
+
+        System.out.print("Enter position: ");
+        int position = sc.nextInt();
+
+        if (position < 0 || position > mainString.length()) {
+            System.out.println("Invalid position");
+        } else {
+            String firstPart = mainString.substring(0, position);
+            String secondPart = mainString.substring(position);
+            String resultString = firstPart + subString + secondPart;
+
+            System.out.println("Resulting string: " + resultString);
+        }
+
+        sc.close();
+    }
+}
+```
+
+# output
+![output](experiments/add2.png)
